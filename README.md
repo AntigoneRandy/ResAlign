@@ -48,7 +48,7 @@ rm new_mscoco10k.zip
 
 3. **`resalign_train`** (the dataset used for training our ResAlign, not required if you only want to evaluate our pretrained model/your own)
    - Link: [![huggingface](https://img.shields.io/badge/Training%20Dataset-%F0%9F%A4%97-78ac62.svg?style=flat-square)](https://huggingface.co/datasets/randyli/ResAlign_train)
-   - Download the dataset via the Hugging Face UI or run (replace `hf_xxx` with your token if required). The command below writes directly to `data/db_prior/`:
+   - Download the dataset via the Hugging Face UI or run (replace `hf_xxx` with your token if required) the command below:
 
 ```bash
 pip install huggingface_hub
@@ -114,7 +114,7 @@ outputs/
     └── final_model.pt
 ```
 
-#### Model Performance & Notes
+<!-- #### Model Performance & Notes
 
 In the paper, most of our reported results were averaged over three independent runs. The two checkpoints above are representative single runs that emphasize different trade-offs:
 
@@ -123,7 +123,7 @@ In the paper, most of our reported results were averaged over three independent 
 | Higher Safety | xx / xx | xx / xx | xx / xx | xx / xx / xx |
 | Higher Utility | 0.0039 / 0.0000 | 0.0476 / 0.0033 | xx / xx | 17.635 / 31.04 / 6.01 |
 
-When running the evaluation pipelines you should observe numbers close to the above (allowing ±1% due to stochastic generation). Please note that these checkpoints are intended for research use only; downstream applications should account for residual risks and comply with your deployment policies.
+When running the evaluation pipelines you should observe numbers close to the above (allowing ±1% due to stochastic generation). Please note that these checkpoints are intended for research use only; downstream applications should account for residual risks and comply with your deployment policies. -->
 
 ## Quick Validation
 
