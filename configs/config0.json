@@ -1,0 +1,10 @@
+{
+    "data_dir": "data/down2",
+    "learning_rate": 0.0001,
+    "inner_steps": 5,
+    "batch_size": 1,
+    "optimizer_type": "gd",
+    "name": "nudety1",
+    "finetune_method": "dreambooth",
+    "prior_preservation_data_dir": "data/db_prior"
+} 

@@ -1,0 +1,8 @@
+{
+    "data_dir": "data/down3",
+    "learning_rate": 0.00001,
+    "inner_steps": 10,
+    "batch_size": 1,
+    "optimizer_type": "adam",
+    "name": "nudety9"
+} 

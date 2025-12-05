@@ -1,0 +1,10 @@
+{
+    "data_dir": "data/down3",
+    "learning_rate": 0.000001,
+    "inner_steps": 5,
+    "batch_size": 1,
+    "optimizer_type": "adam",
+    "name": "full_param_test",
+    "finetune_method": "lora",
+    "full": true
+}
