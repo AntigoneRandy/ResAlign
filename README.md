@@ -116,16 +116,16 @@ outputs/
     └── final_model.pt
 ```
 
-<!-- #### Model Performance & Notes
+#### Model Performance & Notes
 
 In the paper, most of our reported results were averaged over three independent runs. The two checkpoints above are representative single runs that emphasize different trade-offs:
 
 | Model | Before Fine-tuning (IP / US) | DreamBench++ Fine-tuned (IP / US) | DiffusionDB Fine-tuned (IP / US) | FID / CLIP / Aesthetics |
 |-------|------------------------------|-----------------------------------|----------------------------------|-------------------------|
-| Higher Safety | xx / xx | xx / xx | xx / xx | xx / xx / xx |
-| Higher Utility | 0.0039 / 0.0000 | 0.0476 / 0.0033 | xx / xx | 17.635 / 31.04 / 6.01 |
+| Higher Safety | 0.0007 / 0.0000 | 0.0168 / 0.0050 | 0.0408 / 0.0100 | 19.758 / 30.75 / 5.96 |
+| Higher Utility | 0.0039 / 0.0000 | 0.0476 / 0.0033 | 0.0791 / 0.0150 | 17.635 / 31.04 / 6.01 |
 
-When running the evaluation pipelines you should observe numbers close to the above (allowing ±1% due to stochastic generation). Please note that these checkpoints are intended for research use only; downstream applications should account for residual risks and comply with your deployment policies. -->
+When running the evaluation pipelines you should observe numbers close to the above (allowing ±1% due to stochastic generation). Please note that these checkpoints are intended for research use only; downstream applications should account for residual risks and comply with your deployment policies.
 
 ## Quick Validation
 
@@ -337,7 +337,7 @@ Our dataset is built upon work from the following sources (including but not lim
 - [DreamBench++](https://arxiv.org/abs/2406.16855)
 - [DiffusionDB](https://arxiv.org/abs/2210.14896)
 
-We sincerely thank the respective authors for releasing their codebases.
+We sincerely thank the respective authors for releasing their codebases and datasets.
 
 
 ## Citation
